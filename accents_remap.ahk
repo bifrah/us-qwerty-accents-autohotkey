@@ -1,23 +1,25 @@
 ; ==========================================================
-; Script AutoHotkey : Remap raccourcis accents franÁais sur Alt gauche
+; Script AutoHotkey : Remap raccourcis accents fran√ßais sur Alt gauche
 ; Compatible AHK v1 Unicode
 ; ==========================================================
 
-; --- 1. Raccourcis accents franÁais sur Alt gauche ---
+; --- 1. Raccourcis accents fran√ßais sur Alt gauche ---
 ; Alt gauche + lettre : accent minuscule
-!e::Send, {U+00E9} ; È
-!r::Send, {U+00E8} ; Ë
-!a::Send, {U+00E0} ; ‡
-!c::Send, {U+00E7} ; Á
-!u::Send, {U+00F9} ; ˘
-!i::Send, {U+00EF} ; Ô
-!o::Send, {U+00F4} ; Ù
+!w::Send, {U+00EA} ; √™
+!e::Send, {U+00E9} ; √©
+!r::Send, {U+00E8} ; √®
+!a::Send, {U+00E0} ; √†
+!c::Send, {U+00E7} ; √ß
+!u::Send, {U+00F9} ; √π
+!i::Send, {U+00EF} ; √Ø
+!o::Send, {U+00F4} ; √¥
 
 ; Alt gauche + Shift : accent majuscule
-+!e::Send, {U+00C9} ; …
-+!r::Send, {U+00C8} ; »
-+!a::Send, {U+00C0} ; ¿
-+!c::Send, {U+00C7} ; «
-+!u::Send, {U+00D9} ; Ÿ
-+!i::Send, {U+00CF} ; œ
-+!o::Send, {U+00D4} ; ‘
++!w::Send, {U+00CA} ; √ä
++!e::Send, {U+00C9} ; √â
++!r::Send, {U+00C8} ; √à
++!a::Send, {U+00C0} ; √Ä
++!c::Send, {U+00C7} ; √á
++!u::Send, {U+00D9} ; √ô
++!i::Send, {U+00CF} ; √è
++!o::Send, {U+00D4} ; √î
